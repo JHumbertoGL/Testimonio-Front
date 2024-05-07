@@ -1,0 +1,46 @@
+@import "../assets/sass/variables.scss";
+.contenedor_testimonio {
+  width: $sizeTypePercentage90;
+  max-width: 1170px;
+  height: auto;
+  margin: $sizeTypeAll10 auto $sizeTypeAll50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6e6a6a;
+  box-shadow: 0 $sizeTypeAll3 $sizeTypeAll13 $sizeTypeAll1 rgba(184, 179, 179, 0.09);
+
+  .imagen_testimonio {
+    max-width:$sizeTypePercentage100;
+    height: auto;
+  }
+
+  .contenedor_texto_testimonio {
+    text-align: center;
+    padding: $sizeTypePercentage5 $sizeTypePercentage10;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    line-height: $sizeTypeRem1 + .5rem;
+
+    .nombre_testimonio {
+      font-size: $sizeTypeRem1 + .3rem;
+    }
+
+    .cargo_testimonio {
+      font-size: $sizeTypeRem1 + .3rem;
+      margin-top: $sizeTypeAll15;
+      padding-bottom: 5%;
+    }
+
+    .texto_testimonio {
+      font-size: $sizeTypeRem1 + .1rem ;
+      text-align: justify;
+    }
+  }
+}
+@media screen and (max-width: $sizeResponsive) {
+  .contenedor_testimonio {
+    display: flex;
+    flex-direction: column;
+  }
+}

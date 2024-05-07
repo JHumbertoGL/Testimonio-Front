@@ -1,0 +1,40 @@
+$sizeTypeAll0: 0px;
+$sizeTypeAll1: 1px;
+$sizeTypeAll3: 3px;
+$sizeTypeAll13: 13px;
+$sizeTypeAll05: 5px;
+$sizeTypeAll10: 10px;
+$sizeTypeAll15: 15px;
+$sizeTypeAll50: 50px;
+$sizeTypeAll20: 20px;
+$sizeResponsive: 768px;
+
+$sizeTypePercentage0: 0%;
+$sizeTypePercentage5: 5%;
+$sizeTypePercentage10: 10%;
+$sizeTypePercentage90: 90%;
+$sizeTypePercentage100: 100%;
+
+$sizeTypeRem0:0rem;
+$sizeTypeRem1:1rem;
+$sizeTypeRem2:2rem;
+$sizeTypeRem3:3rem;
+$sizeTypeRem4:4rem;
+$sizeTypeRem5:5rem;
+:export{
+    sizeTypeAll0: $sizeTypeAll0;
+    sizeTypeAll05: $sizeTypeAll05;
+    sizeTypeAll10: $sizeTypeAll10;
+    sizeTypeAll20: $sizeTypeAll20;
+    sizeTypePercentage0: $sizeTypePercentage0;
+    sizeTypePercentage5: $sizeTypePercentage5;
+    sizeTypePercentage10: $sizeTypePercentage10;
+    sizeTypePercentage95: $sizeTypePercentage90;
+    sizeTypePercentage100: $sizeTypePercentage100;
+    sizeTypeRem0:$sizeTypeRem0;
+    sizeTypeRem1:$sizeTypeRem1;
+    sizeTypeRem2:$sizeTypeRem2;
+    sizeTypeRem3:$sizeTypeRem3;
+    sizeTypeRem4:$sizeTypeRem4;
+    sizeTypeRem5:$sizeTypeRem5;
+}
